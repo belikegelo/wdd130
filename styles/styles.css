@@ -21,11 +21,11 @@ h1 {
     color: darkblue;
 }
 img {
-    width: 140px;
-    height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    width: 140px;
+    height: auto;
 }
 p {
     padding: 0px;

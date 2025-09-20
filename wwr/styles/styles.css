@@ -8,8 +8,8 @@
 :root {
   --primary-color: #004466;
   --accent1-color: #006699;
-  --heading-font: 'Georgia', serif;
-  --body-font: 'Arial', sans-serif;
+  --heading-font: 'Times New Roman', 'Georgia', serif;
+  --body-font: 'Arial', sans-serif, 'Helvetica';
 }
 
 body {

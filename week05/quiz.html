@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <!-- Text Input -->
+            <label for="q1">1. What tag is used to create a hyperlink in HTML?</label><br>
+            <input type="text" id="q1" name="q1" required>
+            <br><br>
+
+            <!--Textarea -->
+            <label for="q2">2. Why is CSS important? (Answer in your own words)</label><br>
+            <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+            <br><br>
+
+            <!--  Select Dropdown -->
+            <label for="q3">3. What is wrong with the following code?</label><br>
+            <pre>
+    &lt;p&gt;This is a paragraph&lt;/p&gt;
+    &lt;p&gt;Another paragraph&lt;p&gt;
+        </pre>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="missing_closing_tag">The second &lt;p&gt; tag is missing a closing slash (&lt;/p&gt;)
+                </option>
+                <option value="wrong_tag_name">The tag name is incorrect</option>
+                <option value="no_error">There is nothing wrong with the code</option>
+            </select>
+            <br><br>
+
+            <!--  Number Input -->
+            <label for="q4">4. How many levels of headings does HTML provide (use a number)?</label><br>
+            <input type="number" id="q4" name="q4" min="1" max="10" required>
+            <br><br>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 @belikegelo Quiz</p>
+    </footer>
+</body>
+
+</html>

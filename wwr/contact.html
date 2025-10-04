@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Water Bender Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Contact page for the Water Bender Rafting website">
+    <meta name="author" content="Angelo Antimo">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="White Water Rafting Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-container">
+            <h1>Water Bender Rafting Company</h1>
+            <p>123 Main Road Street<br>
+                Trece Martires City, Cavite<br>
+                +63 9123123123<br>
+                info@waterbender.com
+            </p>
+
+            <div class="contact-grid">
+                <!-- MAP -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61867.44852165653!2d120.82056659346713!3d14.269804946378247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd806bdc892737%3A0x760e08400b4e91d8!2sTrece%20Martires%20City%2C%20Cavite!5e0!3m2!1sen!2sph!4v1759590969781!5m2!1sen!2sph"
+                        width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- FORM -->
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+
+                    <label>Message Purpose</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="purpose" value="General Inquiry" required> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here" rows="5" required></textarea>
+
+                    <label class="subscribe">
+                        <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit" class="submit-btn">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- EMPLOYEES -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-cards">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee Profile">
+                    <figcaption>Dave</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee Profile">
+                    <figcaption>Jet</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee Profile">
+                    <figcaption>Sher</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Water Bender Rafting Co. | Angelo Antimo</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram Icon"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
